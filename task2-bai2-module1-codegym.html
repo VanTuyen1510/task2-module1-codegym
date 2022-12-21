@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+</body>
+<script>
+
+let h = +prompt("Nhập số vào :");
+    for (let i = 0; i < h ; i++) {
+        for (let j = 0; j < h * 2 + 1; j++) {
+            if (h - i <= j && j <= h + i) {
+                document.write('*');
+            } else {
+                document.write('&ensp;');
+            }
+        }
+        document.write('<br>');
+    }
+</script>
+</html>
